@@ -1,0 +1,17 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+header {
+    z-index: 1000;
+    background-color: black;
+    /* border: solid red; */
+    box-shadow: 0 2px 4px #20709C;
+    
+}
