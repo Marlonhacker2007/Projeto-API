@@ -17,7 +17,7 @@ header {
     z-index: 1000;
     background-color: black;
     /* border: solid red; */
-    box-shadow: 0 2px 4px #20709C;
+    box-shadow: 0 2px 4px white;
     
 }
 
@@ -86,7 +86,7 @@ nav {
     align-items: center;
     text-align: center;
     z-index: 1000;
-
+    border-top: solid 2px white;
     background-color: var(--cor-fundo-forte);
     color: rgb(192, 189, 189);
     height: 12vh;

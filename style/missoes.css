@@ -8,10 +8,56 @@
 
 }
 
+
+:root {
+    --cor-fundo-forte: #121212;
+    --azul-forte-nasa: #20709C;
+}
+
+/* configuracoes-header */
+
 header {
     z-index: 1000;
     background-color: black;
     /* border: solid red; */
     box-shadow: 0 2px 4px #20709C;
+    
+}
+
+.navs-links a {
+    color: white;
+}     
+
+.navs-links a:hover {
+
+    color: var(--azul-forte-nasa);
+}
+
+.navs-links {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-right: 1%;
+
+}
+
+.navs-links li {
+
+    margin-left: 2rem;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+}
+
+.logo {
+    color: white;
+    margin-left: 1%;
+    
     
 }
