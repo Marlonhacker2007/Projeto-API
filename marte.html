@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astronautas - NASA</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <style>
+    /* Estilo geral */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif; /* Fonte futurista */
+      background: radial-gradient(circle at center, #000428, #004e92); /* Fundo espacial */
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7), 0 0 15px #00d1ff;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .container-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .logo img {
+      width: 60px;
+      height: auto;
+    }
+
+    .navs-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navs-links li a {
+      text-decoration: none;
+      color: #00d1ff;
+      font-weight: bold;
+      font-size: 1rem;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .navs-links li a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 2px;
+      background-color: #007acc;
+      transition: width 0.3s ease-in-out;
+    }
+
+    .navs-links li a:hover {
+      color: #007acc;
+      text-shadow: 0 0 10px #007acc;
+    }
+
+    .navs-links li a:hover::after {
+      width: 100%;
+    }
+
+    /* Conteúdo da página */
+    .page-content {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7), 0 0 30px #00d1ff;
+    }
+
+    .page-content h1 {
+      font-size: 2.5rem;
+      color: #00d1ff;
+      text-shadow: 0 0 15px #00d1ff, 0 0 30px #007acc;
+    }
+
+    .page-content p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin: 20px 0;
+      color: #d1e8ff;
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px 0;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 1rem;
+      color: #00d1ff;
+      text-shadow: 0 0 10px #007acc;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #00d1ff;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    footer a:hover {
+      color: #007acc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container-header">
+      <div class="logo">
+        <img fetchpriority="high" width="60" height="50.58" alt="NASA Logo"
+          src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"
+          srcset="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg">
+      </div>
+      <ul class="navs-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="terra.html">Planeta Terra</a></li>
+        <li><a href="astronautas.html">Astronautas</a></li>
+        <li><a href="marte.html">Marte</a></li>
+        <li><a href="missoes.html">Missões</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-content">
+      <h1>Astronautas da NASA</h1>
+      <p>
+        Conheça os heróis do espaço que desbravaram os limites do universo. Os astronautas da NASA enfrentam desafios
+        incríveis, desde missões na Estação Espacial Internacional até expedições a Marte.
+      </p>
+      <p>
+        Saiba mais sobre seus treinamentos, histórias e contribuições para a ciência e exploração espacial.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    Marlon the goat Copyright © <br>
+    2024. Todos os Direitos Reservados
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca de Astronautas</title>
+  <link rel="stylesheet" href="/style/astronautas.css">
+  <link rel="stylesheet" href="/style/style.css">
+
+</head>
+
+<body>
+
+
+
+  <div class="container">
+
+
+    <header>
+      <nav class="container-header">
+        <div class="logo">
+          <img fetchpriority="high" width="60" height="50.58" alt="NASA Logo"
+            src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"
+            srcset="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+        </div>
+
+        <ul class="navs-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="terra.html">Planeta Terra</a></li>
+          <li><a href="astronautas.html">Astronautas</a></li>
+          <li><a href="marte.html">Marte</a></li>
+          <li><a href="missoes.html">Missões</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+  </div>
+  <div class="astronautas">
+
+    <h1>Buscar Astronauta</h1>
+    <input type="text" id="astronautName" placeholder="Digite o nome do astronauta" />
+    <div id="astronautContainer"></div>
+    <p class="error" id="errorMessage" style="display: none;"></p>
+  </div>
+
+
+  <script src="./script/astronautas.js"></script>
+</body>
+
+</html>

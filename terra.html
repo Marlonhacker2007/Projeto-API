@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens da Terra - NASA API</title>
+  <link rel="stylesheet" href="../style/terra.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container">
+
+
+    <header>
+      <nav class="container-header">
+        <div class="logo">
+          <img fetchpriority="high" width="60" height="50.58" alt="NASA Logo"
+            src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"
+            srcset="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+        </div>
+
+        <ul class="navs-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="terra.html">Planeta Terra</a></li>
+          <li><a href="astronautas.html">Astronautas</a></li>
+          <li><a href="marte.html">Marte</a></li>
+          <li><a href="missoes.html">Missões</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  
+
+  </div>
+  <h1>Imagens da Terra - NASA API</h1>
+  <p>Selecione uma data para visualizar a imagem:</p>
+  <input type="date" id="datePicker" />
+  <div id="imageContainer">
+    <img class="image" id="earthImage" alt="Imagem da Terra" />
+    <p class="error" id="errorMessage" style="display: none;"></p>
+  </div>
+
+
+
+  <script src="./script/terra.js"></script>
+</body>
+
+</html>
